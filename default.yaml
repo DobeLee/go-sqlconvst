@@ -1,0 +1,17 @@
+source:
+  connect_drive: mysql
+  connect_string: 'mysql://'
+  database: test
+  table: table
+table_lower: false
+column_lower: false
+ignore_comment: false
+bool_type: true
+force_unsigned: false
+tag_json: true
+tag_db: false
+tag_gorm:
+  enable: true
+  gorm_column: true
+  gorm_current_time: true
+  gorm_primary_key: true
